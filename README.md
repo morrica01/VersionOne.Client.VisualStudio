@@ -4,23 +4,23 @@ VersionOne.Client.VisualStudio is a Visual Studio extension that connects To bui
 
 # Build Prerequisites
 
-# Step 1: Install or upgrade to the latest NuGet
+## Step 1: Install or upgrade to the latest NuGet
 
 We use NuGet to manage external dependencies that this project requires. [Install NuGet 2.7](http://docs.nuget.org/docs/release-notes/nuget-2.7) or greater. -- **most importantly, as of NuGet 2.7, there is a simplified package restore workflow for NuGet packages that this code requires via `packages.config` files in each project. [See this post](http://docs.nuget.org/docs/release-notes/nuget-2.7) for all the details.**
 
-# Step 2: Automate the installation of required developer tools
+## Step 2: Automate the installation of required developer tools
 
 We build with Visual Studio 2012 Professional and Premium, and several other tools, all of which are listed in
 the Chocolatey [packages.config](packages.config) file.
 
-## Install Chocolatey
+## Step 3: Install Chocolatey
 
 Not familiar with Chocolatey? It's a package manager for Windows, similar to apt-get in the Linux world. It actually uses NuGet internally. To installl Chocolatey:
 
 * First, see [Chocolatey's requirements](https://github.com/chocolatey/chocolatey/wiki)
 * Next, assuming you already Cloned or Downloaded this repository from GitHub into `C:\Projects\VersionOne.Client.VisualStudio`, open an `Admininstrator` command prompt in that folder and run `install_chocolatey.bat`
 
-## Next, use Chocolatey to install the developer tools
+## Step 4: Use Chocolatey to install the developer tools
 
 If the Chocolatey install worked, then:
 
@@ -30,7 +30,7 @@ If the Chocolatey install worked, then:
 
 This should start downloading and automatically installling the tools listed in [packages.config](packages.config).
 
-# Or, if you don't want or cannot use Chocolatey, you can manually install developer tools
+# Alternatively: If you don't want or cannot use Chocolatey, you can manually install developer tools
 
 * [Install Visual Studio 2012 Professional or higher](http://msdn.microsoft.com/en-US/library/vstudio/e2h7fzkw.aspx)
 * [Install Update 3 for Visual Studio 2012](http://support.microsoft.com/kb/2835600)
