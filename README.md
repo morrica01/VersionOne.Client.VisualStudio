@@ -1,12 +1,14 @@
 # VersionOne Client for Visual Studio
 
-VersionOne.Client.VisualStudio is a Visual Studio extension that connects To build this code you'll need:
+VersionOne.Client.VisualStudio is a Visual Studio extension that connects to VersionOne.
 
 # Build Prerequisites
 
 ## Step 1: Install or upgrade to the latest NuGet
 
-We use NuGet to manage external dependencies that this project requires. [Install NuGet 2.7](http://docs.nuget.org/docs/release-notes/nuget-2.7) or greater. -- **most importantly, as of NuGet 2.7, there is a simplified package restore workflow for NuGet packages that this code requires via `packages.config` files in each project. [See this post](http://docs.nuget.org/docs/release-notes/nuget-2.7) for all the details.**
+[Install NuGet 2.7](http://docs.nuget.org/docs/release-notes/nuget-2.7) or greater.
+
+We use NuGet to manage external dependencies that this project requires. -- **Most importantly, as of NuGet 2.7, there is a simplified package restore workflow for NuGet packages that this code requires via `packages.config` files in each project.** [See this post](http://docs.nuget.org/docs/release-notes/nuget-2.7) for all the details.
 
 ## Step 2: Automate the installation of required developer tools
 
