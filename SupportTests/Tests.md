@@ -11,7 +11,7 @@
 
 1. Retrieve a release candidate of the Visual Studio integration in a customer distributable form from development team
 2. Select Tools->Options to open configuration form
-3. Enter VersionOne URL and Password
+3. Enter VersionOne URL and Password (https://www14.v1host.com/v1sdktesting/ |id: admin/pw: admin)
 4. Click “Test Connection”
 5. Click “OK” and Restart Visual Studio
 6. Monitor Visual Studio for errors loading extensions
